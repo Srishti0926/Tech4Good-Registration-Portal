@@ -1,0 +1,465 @@
+15805.714 (1) Opened log file at time: Mon, 04 Apr 2022 07:53:04 +0000 on http://tech4good.ves.ac.in
+15805.715 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 18.8M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+15805.715 (1) Free space on disk containing Updraft's temporary directory: 199272.6 MB
+15805.715 (1) Requesting backup semaphore lock (e59c81cdec8d)
+15805.716 (1) [Info] Lock (updraft_lock_547d9402c981, wp_tgoptions) acquired
+15805.717 (1) Backup run: resumption=1, nonce=e59c81cdec8d, file_nonce=e59c81cdec8d begun at=1649042978 (15806s ago), job type=backup, previous check-in=9.73s
+15805.717 (1) Long time past since expected resumption time: approx expected=1649043288, now=1649058784, diff=15496
+15805.718 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+15805.719 (1) Scheduling a resumption (2) after 300 seconds (1649059084) in case this run gets aborted
+15805.720 (1) Checking if we have a zip executable available
+15805.721 (1) Creation of backups of directories: already finished
+15805.721 (1) Saving backup status to database (elements: 8)
+15805.722 (1) Database dump (WordPress DB): Creation was completed already
+15805.723 (1) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+15805.725 (1) backup_2022-04-04-0329_Tech4Good_547d9402c981-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+15805.725 (1) backup_2022-04-04-0329_Tech4Good_547d9402c981-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+15805.725 (1) backup_2022-04-04-0329_Tech4Good_547d9402c981-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+15805.726 (1) backup_2022-04-04-0329_Tech4Good_547d9402c981-others.zip: others: This file has not yet been successfully uploaded: will queue
+15805.726 (1) backup_2022-04-04-0329_Tech4Good_e59c81cdec8d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+15805.727 (1) Saving backup history. Total backup size: Unknown
+15805.728 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+15805.729 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+15805.730 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1ab66adcba2c617151f5e7bea94f174)
+15805.730 (1) Google Drive: this account is not authorised
+15805.732 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+15805.733 (1) Number of backup sets in history: 3; groups (db): 1
+15805.733 (1) Examining (for databases) backup set with group_id=0, nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+15805.733 (1) This backup set is the backup set just made, so will not be deleted.
+15805.733 (1) Examining (for databases) backup set with group_id=0, nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+15805.733 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+15805.734 (1) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+15805.734 (1) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+15805.734 (1) Number of backup sets in history: 3; groups (files): 1
+15805.734 (1) Examining (for files) backup set with nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+15805.734 (1) This backup set is the backup set just made, so will not be deleted.
+15805.735 (1) This backup set is the backup set just made, so will not be deleted.
+15805.735 (1) This backup set is the backup set just made, so will not be deleted.
+15805.735 (1) This backup set is the backup set just made, so will not be deleted.
+15805.735 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+15805.735 (1) Examining (for files) backup set with nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+15805.735 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+15805.736 (1) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+15805.736 (1) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+15805.736 (1) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+15805.736 (1) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+15805.736 (1) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+15805.736 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+15805.736 (1) Retain: saving new backup history (sets now: 3) and finishing retain operation
+15805.737 (1) Resume backup (e59c81cdec8d, 1): finish run
+15805.738 (1) [Info] Lock option (updraft_lock_547d9402c981, wp_tgoptions) released
+15805.739 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+15805.740 (1) No email will/can be sent - the user has not configured an email address.
+15805.740 (1) The backup has not finished; a resumption is scheduled
+23147.553 (2) Opened log file at time: Mon, 04 Apr 2022 09:55:25 +0000 on http://tech4good.ves.ac.in
+23147.553 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 19M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+23147.554 (2) Free space on disk containing Updraft's temporary directory: 199477.5 MB
+23147.554 (2) Requesting backup semaphore lock (e59c81cdec8d)
+23147.554 (2) [Info] Lock (updraft_lock_547d9402c981, wp_tgoptions) acquired
+23147.555 (2) Backup run: resumption=2, nonce=e59c81cdec8d, file_nonce=e59c81cdec8d begun at=1649042978 (23147s ago), job type=backup
+23147.556 (2) Long time past since expected resumption time: approx expected=1649059084, now=1649066125.9, diff=7041.8
+23147.556 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+23147.557 (2) Scheduling a resumption (3) after 300 seconds (1649066425) in case this run gets aborted
+23147.558 (2) Checking if we have a zip executable available
+23147.559 (2) Creation of backups of directories: already finished
+23147.559 (2) Saving backup status to database (elements: 8)
+23147.560 (2) Database dump (WordPress DB): Creation was completed already
+23147.561 (2) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+23147.562 (2) backup_2022-04-04-0329_Tech4Good_547d9402c981-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+23147.563 (2) backup_2022-04-04-0329_Tech4Good_547d9402c981-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+23147.563 (2) backup_2022-04-04-0329_Tech4Good_547d9402c981-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+23147.563 (2) backup_2022-04-04-0329_Tech4Good_547d9402c981-others.zip: others: This file has not yet been successfully uploaded: will queue
+23147.564 (2) backup_2022-04-04-0329_Tech4Good_e59c81cdec8d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+23147.564 (2) Saving backup history. Total backup size: Unknown
+23147.565 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+23147.566 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+23147.567 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1ab66adcba2c617151f5e7bea94f174)
+23147.567 (2) Google Drive: this account is not authorised
+23147.568 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+23147.569 (2) Number of backup sets in history: 3; groups (db): 1
+23147.570 (2) Examining (for databases) backup set with group_id=0, nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+23147.570 (2) This backup set is the backup set just made, so will not be deleted.
+23147.570 (2) Examining (for databases) backup set with group_id=0, nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+23147.570 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+23147.570 (2) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+23147.570 (2) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23147.570 (2) Number of backup sets in history: 3; groups (files): 1
+23147.570 (2) Examining (for files) backup set with nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+23147.570 (2) This backup set is the backup set just made, so will not be deleted.
+23147.571 (2) This backup set is the backup set just made, so will not be deleted.
+23147.571 (2) This backup set is the backup set just made, so will not be deleted.
+23147.571 (2) This backup set is the backup set just made, so will not be deleted.
+23147.571 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+23147.571 (2) Examining (for files) backup set with nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+23147.572 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+23147.572 (2) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+23147.572 (2) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23147.572 (2) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23147.572 (2) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23147.572 (2) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23147.572 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+23147.572 (2) Retain: saving new backup history (sets now: 3) and finishing retain operation
+23147.573 (2) Resume backup (e59c81cdec8d, 2): finish run
+23147.574 (2) [Info] Lock option (updraft_lock_547d9402c981, wp_tgoptions) released
+23147.574 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+23147.575 (2) No email will/can be sent - the user has not configured an email address.
+23147.576 (2) The backup has not finished; a resumption is scheduled
+23614.123 (3) Opened log file at time: Mon, 04 Apr 2022 10:03:12 +0000 on https://tech4good.ves.ac.in
+23614.123 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 18.8M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+23614.123 (3) Free space on disk containing Updraft's temporary directory: 199451.3 MB
+23614.124 (3) Requesting backup semaphore lock (e59c81cdec8d)
+23614.124 (3) [Info] Lock (updraft_lock_547d9402c981, wp_tgoptions) acquired
+23614.125 (3) Backup run: resumption=3, nonce=e59c81cdec8d, file_nonce=e59c81cdec8d begun at=1649042978 (23614s ago), job type=backup
+23614.126 (3) Scheduling a resumption (4) after 300 seconds (1649066892) in case this run gets aborted
+23614.127 (3) Checking if we have a zip executable available
+23614.127 (3) Creation of backups of directories: already finished
+23614.128 (3) Saving backup status to database (elements: 8)
+23614.129 (3) Database dump (WordPress DB): Creation was completed already
+23614.129 (3) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+23614.131 (3) backup_2022-04-04-0329_Tech4Good_547d9402c981-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+23614.131 (3) backup_2022-04-04-0329_Tech4Good_547d9402c981-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+23614.131 (3) backup_2022-04-04-0329_Tech4Good_547d9402c981-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+23614.132 (3) backup_2022-04-04-0329_Tech4Good_547d9402c981-others.zip: others: This file has not yet been successfully uploaded: will queue
+23614.132 (3) backup_2022-04-04-0329_Tech4Good_e59c81cdec8d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+23614.133 (3) Saving backup history. Total backup size: Unknown
+23614.134 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+23614.135 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+23614.135 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1ab66adcba2c617151f5e7bea94f174)
+23614.136 (3) Google Drive: this account is not authorised
+23614.137 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+23614.138 (3) Number of backup sets in history: 3; groups (db): 1
+23614.138 (3) Examining (for databases) backup set with group_id=0, nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+23614.138 (3) This backup set is the backup set just made, so will not be deleted.
+23614.138 (3) Examining (for databases) backup set with group_id=0, nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+23614.138 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+23614.139 (3) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+23614.139 (3) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23614.139 (3) Number of backup sets in history: 3; groups (files): 1
+23614.139 (3) Examining (for files) backup set with nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+23614.139 (3) This backup set is the backup set just made, so will not be deleted.
+23614.139 (3) This backup set is the backup set just made, so will not be deleted.
+23614.139 (3) This backup set is the backup set just made, so will not be deleted.
+23614.140 (3) This backup set is the backup set just made, so will not be deleted.
+23614.140 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+23614.140 (3) Examining (for files) backup set with nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+23614.140 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+23614.140 (3) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+23614.140 (3) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23614.140 (3) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23614.140 (3) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23614.140 (3) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+23614.140 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+23614.141 (3) Retain: saving new backup history (sets now: 3) and finishing retain operation
+23614.142 (3) Resume backup (e59c81cdec8d, 3): finish run
+23614.143 (3) [Info] Lock option (updraft_lock_547d9402c981, wp_tgoptions) released
+23614.143 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+23614.144 (3) No email will/can be sent - the user has not configured an email address.
+23614.145 (3) The backup has not finished; a resumption is scheduled
+27071.778 (4) Opened log file at time: Mon, 04 Apr 2022 11:00:50 +0000 on http://tech4good.ves.ac.in
+27071.779 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 18.8M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+27071.779 (4) Free space on disk containing Updraft's temporary directory: 199284.3 MB
+27071.779 (4) Requesting backup semaphore lock (e59c81cdec8d)
+27071.780 (4) [Info] Lock (updraft_lock_547d9402c981, wp_tgoptions) acquired
+27071.781 (4) Backup run: resumption=4, nonce=e59c81cdec8d, file_nonce=e59c81cdec8d begun at=1649042978 (27072s ago), job type=backup
+27071.781 (4) Long time past since expected resumption time: approx expected=1649066892.4, now=1649070050.1, diff=3157.7
+27071.782 (4) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+27071.782 (4) Scheduling a resumption (5) after 300 seconds (1649070350) in case this run gets aborted
+27071.783 (4) Checking if we have a zip executable available
+27071.784 (4) Creation of backups of directories: already finished
+27071.784 (4) Saving backup status to database (elements: 8)
+27071.785 (4) Database dump (WordPress DB): Creation was completed already
+27071.786 (4) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+27071.787 (4) backup_2022-04-04-0329_Tech4Good_547d9402c981-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+27071.788 (4) backup_2022-04-04-0329_Tech4Good_547d9402c981-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+27071.788 (4) backup_2022-04-04-0329_Tech4Good_547d9402c981-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+27071.788 (4) backup_2022-04-04-0329_Tech4Good_547d9402c981-others.zip: others: This file has not yet been successfully uploaded: will queue
+27071.789 (4) backup_2022-04-04-0329_Tech4Good_e59c81cdec8d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+27071.789 (4) Saving backup history. Total backup size: Unknown
+27071.790 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+27071.791 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+27071.792 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1ab66adcba2c617151f5e7bea94f174)
+27071.792 (4) Google Drive: this account is not authorised
+27071.794 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+27071.794 (4) Number of backup sets in history: 3; groups (db): 1
+27071.795 (4) Examining (for databases) backup set with group_id=0, nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+27071.795 (4) This backup set is the backup set just made, so will not be deleted.
+27071.795 (4) Examining (for databases) backup set with group_id=0, nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+27071.795 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+27071.795 (4) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+27071.795 (4) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27071.795 (4) Number of backup sets in history: 3; groups (files): 1
+27071.796 (4) Examining (for files) backup set with nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+27071.796 (4) This backup set is the backup set just made, so will not be deleted.
+27071.796 (4) This backup set is the backup set just made, so will not be deleted.
+27071.796 (4) This backup set is the backup set just made, so will not be deleted.
+27071.796 (4) This backup set is the backup set just made, so will not be deleted.
+27071.796 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+27071.797 (4) Examining (for files) backup set with nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+27071.797 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+27071.797 (4) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+27071.797 (4) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27071.797 (4) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27071.797 (4) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27071.797 (4) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27071.797 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+27071.797 (4) Retain: saving new backup history (sets now: 3) and finishing retain operation
+27071.798 (4) Resume backup (e59c81cdec8d, 4): finish run
+27071.799 (4) [Info] Lock option (updraft_lock_547d9402c981, wp_tgoptions) released
+27071.800 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+27071.801 (4) No email will/can be sent - the user has not configured an email address.
+27071.801 (4) The backup has not finished; a resumption is scheduled
+27375.846 (5) Opened log file at time: Mon, 04 Apr 2022 11:05:54 +0000 on https://tech4good.ves.ac.in
+27375.846 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 18.8M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+27375.846 (5) Free space on disk containing Updraft's temporary directory: 199299.1 MB
+27375.847 (5) Requesting backup semaphore lock (e59c81cdec8d)
+27375.847 (5) [Info] Lock (updraft_lock_547d9402c981, wp_tgoptions) acquired
+27375.848 (5) Backup run: resumption=5, nonce=e59c81cdec8d, file_nonce=e59c81cdec8d begun at=1649042978 (27376s ago), job type=backup
+27375.849 (5) Scheduling a resumption (6) after 300 seconds (1649070654) in case this run gets aborted
+27375.850 (5) Checking if we have a zip executable available
+27375.850 (5) Creation of backups of directories: already finished
+27375.851 (5) Saving backup status to database (elements: 8)
+27375.852 (5) Database dump (WordPress DB): Creation was completed already
+27375.852 (5) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+27375.854 (5) backup_2022-04-04-0329_Tech4Good_547d9402c981-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+27375.854 (5) backup_2022-04-04-0329_Tech4Good_547d9402c981-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+27375.855 (5) backup_2022-04-04-0329_Tech4Good_547d9402c981-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+27375.855 (5) backup_2022-04-04-0329_Tech4Good_547d9402c981-others.zip: others: This file has not yet been successfully uploaded: will queue
+27375.855 (5) backup_2022-04-04-0329_Tech4Good_e59c81cdec8d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+27375.856 (5) Saving backup history. Total backup size: Unknown
+27375.857 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+27375.858 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+27375.858 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1ab66adcba2c617151f5e7bea94f174)
+27375.859 (5) Google Drive: this account is not authorised
+27375.860 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+27375.861 (5) Number of backup sets in history: 3; groups (db): 1
+27375.861 (5) Examining (for databases) backup set with group_id=0, nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+27375.861 (5) This backup set is the backup set just made, so will not be deleted.
+27375.861 (5) Examining (for databases) backup set with group_id=0, nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+27375.861 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+27375.861 (5) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+27375.861 (5) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27375.861 (5) Number of backup sets in history: 3; groups (files): 1
+27375.862 (5) Examining (for files) backup set with nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+27375.862 (5) This backup set is the backup set just made, so will not be deleted.
+27375.862 (5) This backup set is the backup set just made, so will not be deleted.
+27375.862 (5) This backup set is the backup set just made, so will not be deleted.
+27375.862 (5) This backup set is the backup set just made, so will not be deleted.
+27375.862 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+27375.863 (5) Examining (for files) backup set with nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+27375.863 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+27375.863 (5) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+27375.863 (5) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27375.863 (5) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27375.863 (5) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27375.863 (5) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27375.863 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+27375.863 (5) Retain: saving new backup history (sets now: 3) and finishing retain operation
+27375.865 (5) Resume backup (e59c81cdec8d, 5): finish run
+27375.865 (5) [Info] Lock option (updraft_lock_547d9402c981, wp_tgoptions) released
+27375.866 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+27375.867 (5) No email will/can be sent - the user has not configured an email address.
+27375.867 (5) The backup has not finished; a resumption is scheduled
+27779.762 (6) Opened log file at time: Mon, 04 Apr 2022 11:12:38 +0000 on https://tech4good.ves.ac.in
+27779.762 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 18.8M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+27779.763 (6) Free space on disk containing Updraft's temporary directory: 199275.3 MB
+27779.763 (6) Requesting backup semaphore lock (e59c81cdec8d)
+27779.763 (6) [Info] Lock (updraft_lock_547d9402c981, wp_tgoptions) acquired
+27779.764 (6) Backup run: resumption=6, nonce=e59c81cdec8d, file_nonce=e59c81cdec8d begun at=1649042978 (27780s ago), job type=backup
+27779.765 (6) Scheduling a resumption (7) after 300 seconds (1649071058) in case this run gets aborted
+27779.766 (6) Checking if we have a zip executable available
+27779.767 (6) Creation of backups of directories: already finished
+27779.767 (6) Saving backup status to database (elements: 8)
+27779.768 (6) Database dump (WordPress DB): Creation was completed already
+27779.769 (6) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+27779.770 (6) backup_2022-04-04-0329_Tech4Good_547d9402c981-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+27779.771 (6) backup_2022-04-04-0329_Tech4Good_547d9402c981-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+27779.771 (6) backup_2022-04-04-0329_Tech4Good_547d9402c981-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+27779.771 (6) backup_2022-04-04-0329_Tech4Good_547d9402c981-others.zip: others: This file has not yet been successfully uploaded: will queue
+27779.772 (6) backup_2022-04-04-0329_Tech4Good_e59c81cdec8d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+27779.772 (6) Saving backup history. Total backup size: Unknown
+27779.773 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+27779.774 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+27779.775 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1ab66adcba2c617151f5e7bea94f174)
+27779.775 (6) Google Drive: this account is not authorised
+27779.776 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+27779.777 (6) Number of backup sets in history: 3; groups (db): 1
+27779.777 (6) Examining (for databases) backup set with group_id=0, nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+27779.777 (6) This backup set is the backup set just made, so will not be deleted.
+27779.777 (6) Examining (for databases) backup set with group_id=0, nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+27779.777 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+27779.778 (6) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+27779.778 (6) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27779.778 (6) Number of backup sets in history: 3; groups (files): 1
+27779.778 (6) Examining (for files) backup set with nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+27779.778 (6) This backup set is the backup set just made, so will not be deleted.
+27779.779 (6) This backup set is the backup set just made, so will not be deleted.
+27779.779 (6) This backup set is the backup set just made, so will not be deleted.
+27779.779 (6) This backup set is the backup set just made, so will not be deleted.
+27779.779 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+27779.779 (6) Examining (for files) backup set with nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+27779.779 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+27779.779 (6) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+27779.779 (6) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27779.779 (6) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27779.779 (6) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27779.779 (6) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+27779.779 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+27779.780 (6) Retain: saving new backup history (sets now: 3) and finishing retain operation
+27779.781 (6) Resume backup (e59c81cdec8d, 6): finish run
+27779.782 (6) [Info] Lock option (updraft_lock_547d9402c981, wp_tgoptions) released
+27779.782 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+27779.783 (6) No email will/can be sent - the user has not configured an email address.
+27779.784 (6) The backup has not finished; a resumption is scheduled
+28090.727 (7) Opened log file at time: Mon, 04 Apr 2022 11:17:49 +0000 on https://tech4good.ves.ac.in
+28090.728 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 18.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+28090.728 (7) Free space on disk containing Updraft's temporary directory: 199267.3 MB
+28090.728 (7) Requesting backup semaphore lock (e59c81cdec8d)
+28090.729 (7) [Info] Lock (updraft_lock_547d9402c981, wp_tgoptions) acquired
+28090.730 (7) Backup run: resumption=7, nonce=e59c81cdec8d, file_nonce=e59c81cdec8d begun at=1649042978 (28091s ago), job type=backup
+28090.731 (7) Scheduling a resumption (8) after 300 seconds (1649071369) in case this run gets aborted
+28090.732 (7) Checking if we have a zip executable available
+28090.732 (7) Creation of backups of directories: already finished
+28090.732 (7) Saving backup status to database (elements: 8)
+28090.734 (7) Database dump (WordPress DB): Creation was completed already
+28090.734 (7) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+28090.736 (7) backup_2022-04-04-0329_Tech4Good_547d9402c981-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+28090.736 (7) backup_2022-04-04-0329_Tech4Good_547d9402c981-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+28090.737 (7) backup_2022-04-04-0329_Tech4Good_547d9402c981-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+28090.737 (7) backup_2022-04-04-0329_Tech4Good_547d9402c981-others.zip: others: This file has not yet been successfully uploaded: will queue
+28090.738 (7) backup_2022-04-04-0329_Tech4Good_e59c81cdec8d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+28090.738 (7) Saving backup history. Total backup size: Unknown
+28090.739 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+28090.740 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+28090.741 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1ab66adcba2c617151f5e7bea94f174)
+28090.741 (7) Google Drive: this account is not authorised
+28090.742 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+28090.743 (7) Number of backup sets in history: 3; groups (db): 1
+28090.743 (7) Examining (for databases) backup set with group_id=0, nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+28090.743 (7) This backup set is the backup set just made, so will not be deleted.
+28090.743 (7) Examining (for databases) backup set with group_id=0, nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+28090.743 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+28090.744 (7) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+28090.744 (7) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28090.744 (7) Number of backup sets in history: 3; groups (files): 1
+28090.744 (7) Examining (for files) backup set with nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+28090.744 (7) This backup set is the backup set just made, so will not be deleted.
+28090.744 (7) This backup set is the backup set just made, so will not be deleted.
+28090.745 (7) This backup set is the backup set just made, so will not be deleted.
+28090.745 (7) This backup set is the backup set just made, so will not be deleted.
+28090.745 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+28090.745 (7) Examining (for files) backup set with nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+28090.745 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+28090.745 (7) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+28090.745 (7) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28090.745 (7) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28090.745 (7) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28090.745 (7) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28090.745 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+28090.745 (7) Retain: saving new backup history (sets now: 3) and finishing retain operation
+28090.747 (7) Resume backup (e59c81cdec8d, 7): finish run
+28090.748 (7) [Info] Lock option (updraft_lock_547d9402c981, wp_tgoptions) released
+28090.748 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+28090.749 (7) No email will/can be sent - the user has not configured an email address.
+28090.750 (7) The backup has not finished; a resumption is scheduled
+28392.720 (8) Opened log file at time: Mon, 04 Apr 2022 11:22:51 +0000 on https://tech4good.ves.ac.in
+28392.720 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 19M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+28392.720 (8) Free space on disk containing Updraft's temporary directory: 199300 MB
+28392.721 (8) Requesting backup semaphore lock (e59c81cdec8d)
+28392.721 (8) [Info] Lock (updraft_lock_547d9402c981, wp_tgoptions) acquired
+28392.722 (8) Backup run: resumption=8, nonce=e59c81cdec8d, file_nonce=e59c81cdec8d begun at=1649042978 (28393s ago), job type=backup
+28392.723 (8) Scheduling a resumption (9) after 300 seconds (1649071671) in case this run gets aborted
+28392.724 (8) Checking if we have a zip executable available
+28392.725 (8) Creation of backups of directories: already finished
+28392.725 (8) Saving backup status to database (elements: 8)
+28392.727 (8) Database dump (WordPress DB): Creation was completed already
+28392.727 (8) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+28392.729 (8) backup_2022-04-04-0329_Tech4Good_547d9402c981-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+28392.729 (8) backup_2022-04-04-0329_Tech4Good_547d9402c981-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+28392.729 (8) backup_2022-04-04-0329_Tech4Good_547d9402c981-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+28392.730 (8) backup_2022-04-04-0329_Tech4Good_547d9402c981-others.zip: others: This file has not yet been successfully uploaded: will queue
+28392.730 (8) backup_2022-04-04-0329_Tech4Good_e59c81cdec8d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+28392.731 (8) Saving backup history. Total backup size: Unknown
+28392.732 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+28392.733 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+28392.734 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1ab66adcba2c617151f5e7bea94f174)
+28392.734 (8) Google Drive: this account is not authorised
+28392.735 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+28392.736 (8) Number of backup sets in history: 3; groups (db): 1
+28392.736 (8) Examining (for databases) backup set with group_id=0, nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+28392.736 (8) This backup set is the backup set just made, so will not be deleted.
+28392.736 (8) Examining (for databases) backup set with group_id=0, nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+28392.736 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+28392.736 (8) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+28392.736 (8) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28392.736 (8) Number of backup sets in history: 3; groups (files): 1
+28392.737 (8) Examining (for files) backup set with nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+28392.737 (8) This backup set is the backup set just made, so will not be deleted.
+28392.737 (8) This backup set is the backup set just made, so will not be deleted.
+28392.737 (8) This backup set is the backup set just made, so will not be deleted.
+28392.737 (8) This backup set is the backup set just made, so will not be deleted.
+28392.738 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+28392.738 (8) Examining (for files) backup set with nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+28392.738 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+28392.738 (8) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+28392.738 (8) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28392.738 (8) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28392.738 (8) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28392.738 (8) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28392.738 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+28392.738 (8) Retain: saving new backup history (sets now: 3) and finishing retain operation
+28392.740 (8) Resume backup (e59c81cdec8d, 8): finish run
+28392.740 (8) [Info] Lock option (updraft_lock_547d9402c981, wp_tgoptions) released
+28392.741 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+28392.742 (8) No email will/can be sent - the user has not configured an email address.
+28392.742 (8) The backup has not finished; a resumption is scheduled
+28703.301 (9) Opened log file at time: Mon, 04 Apr 2022 11:28:01 +0000 on https://tech4good.ves.ac.in
+28703.301 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 18.8M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+28703.301 (9) Free space on disk containing Updraft's temporary directory: 199279.8 MB
+28703.302 (9) Requesting backup semaphore lock (e59c81cdec8d)
+28703.302 (9) [Info] Lock (updraft_lock_547d9402c981, wp_tgoptions) acquired
+28703.303 (9) Backup run: resumption=9, nonce=e59c81cdec8d, file_nonce=e59c81cdec8d begun at=1649042978 (28703s ago), job type=backup
+28703.304 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+28703.305 (9) Scheduling a resumption (10) after 300 seconds (1649071981); but the job will then be aborted unless something happens this time
+28703.307 (9) Creation of backups of directories: already finished
+28703.307 (9) Saving backup status to database (elements: 8)
+28703.308 (9) Database dump (WordPress DB): Creation was completed already
+28703.309 (9) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+28703.311 (9) backup_2022-04-04-0329_Tech4Good_547d9402c981-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+28703.311 (9) backup_2022-04-04-0329_Tech4Good_547d9402c981-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+28703.311 (9) backup_2022-04-04-0329_Tech4Good_547d9402c981-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+28703.312 (9) backup_2022-04-04-0329_Tech4Good_547d9402c981-others.zip: others: This file has not yet been successfully uploaded: will queue
+28703.312 (9) backup_2022-04-04-0329_Tech4Good_e59c81cdec8d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+28703.313 (9) Saving backup history. Total backup size: Unknown
+28703.314 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+28703.315 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+28703.315 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1ab66adcba2c617151f5e7bea94f174)
+28703.316 (9) Google Drive: this account is not authorised
+28703.317 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+28703.318 (9) Number of backup sets in history: 3; groups (db): 1
+28703.318 (9) Examining (for databases) backup set with group_id=0, nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+28703.318 (9) This backup set is the backup set just made, so will not be deleted.
+28703.318 (9) Examining (for databases) backup set with group_id=0, nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+28703.318 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+28703.318 (9) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+28703.318 (9) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28703.319 (9) Number of backup sets in history: 3; groups (files): 1
+28703.319 (9) Examining (for files) backup set with nonce=e59c81cdec8d, datestamp=1649042978 (Apr 04 2022 03:29:38)
+28703.319 (9) This backup set is the backup set just made, so will not be deleted.
+28703.319 (9) This backup set is the backup set just made, so will not be deleted.
+28703.320 (9) This backup set is the backup set just made, so will not be deleted.
+28703.320 (9) This backup set is the backup set just made, so will not be deleted.
+28703.320 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+28703.320 (9) Examining (for files) backup set with nonce=af549f6608dd, datestamp=1648998119 (Apr 03 2022 15:01:59)
+28703.320 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+28703.320 (9) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+28703.320 (9) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28703.320 (9) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28703.320 (9) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28703.320 (9) This backup set (1648928009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+28703.320 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+28703.321 (9) Retain: saving new backup history (sets now: 3) and finishing retain operation
+28703.322 (9) Resume backup (e59c81cdec8d, 9): finish run
+28703.323 (9) [Info] Lock option (updraft_lock_547d9402c981, wp_tgoptions) released
+28703.324 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+28703.325 (9) No email will/can be sent - the user has not configured an email address.
+28703.325 (9) The backup attempt has finished, apparently unsuccessfully

@@ -1,0 +1,247 @@
+0000.000 (0) Opened log file at time: Sat, 02 Apr 2022 19:33:29 +0000 on https://tech4good.ves.ac.in
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 5.6.40 (cgi-fcgi, Linux ocean.srv5.com 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64) MySQL: 5.7.37 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.1M | 20.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 198647.9 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.004 (0) Semaphore (fd, wp_tgoptions) being initialised
+0000.005 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.005 (0) Set semaphore last lock (fd) time to 2022-04-02 19:33:29
+0000.006 (0) Semaphore lock (fd) complete
+0000.007 (0) Backup run: resumption=0, nonce=67cfc5c3edb5, file_nonce=67cfc5c3edb5 begun at=1648928009 (0s ago), job type=backup
+0000.008 (0) Scheduling a resumption (1) after 300 seconds (1648928309) in case this run gets aborted
+0000.021 (0) Checking if we have a zip executable available
+0000.022 (0) Creation of backups of directories: beginning
+0000.024 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.120 (0) Total entities for the zip file: 850 directories, 3886 files (0 skipped as non-modified), 76.1 MB
+0000.131 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.136 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.140 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.145 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.150 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.156 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.162 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.168 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.174 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.180 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.181 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.5 MB, 3886 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.143 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1100 files added (on-disk size: 3251.6 KB)
+0001.149 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1200 files added (on-disk size: 3251.6 KB)
+0001.156 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1300 files added (on-disk size: 3251.6 KB)
+0001.163 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1400 files added (on-disk size: 3251.6 KB)
+0001.170 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1500 files added (on-disk size: 3251.6 KB)
+0001.178 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1600 files added (on-disk size: 3251.6 KB)
+0001.186 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1700 files added (on-disk size: 3251.6 KB)
+0001.194 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1800 files added (on-disk size: 3251.6 KB)
+0001.202 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 1900 files added (on-disk size: 3251.6 KB)
+0001.211 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2000 files added (on-disk size: 3251.6 KB)
+0001.211 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.4 MB, 3886 files batched, 1001 (2002) added so far); re-opening (prior size: 3251.6 KB)
+0001.793 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2100 files added (on-disk size: 9064.1 KB)
+0001.802 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2200 files added (on-disk size: 9064.1 KB)
+0001.812 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2300 files added (on-disk size: 9064.1 KB)
+0001.822 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2400 files added (on-disk size: 9064.1 KB)
+0001.832 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2500 files added (on-disk size: 9064.1 KB)
+0001.842 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2600 files added (on-disk size: 9064.1 KB)
+0001.851 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2700 files added (on-disk size: 9064.1 KB)
+0001.861 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2800 files added (on-disk size: 9064.1 KB)
+0001.872 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 2900 files added (on-disk size: 9064.1 KB)
+0001.882 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 3000 files added (on-disk size: 9064.1 KB)
+0001.883 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.8 MB, 3886 files batched, 1001 (3003) added so far); re-opening (prior size: 9064.1 KB)
+0003.173 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 3100 files added (on-disk size: 15447.7 KB)
+0003.182 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 3200 files added (on-disk size: 15447.7 KB)
+0003.192 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 3300 files added (on-disk size: 15447.7 KB)
+0003.202 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 3400 files added (on-disk size: 15447.7 KB)
+0003.213 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 3500 files added (on-disk size: 15447.7 KB)
+0003.223 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 3600 files added (on-disk size: 15447.7 KB)
+0003.235 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 3700 files added (on-disk size: 15447.7 KB)
+0003.246 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.tmp: 3800 files added (on-disk size: 15447.7 KB)
+0003.247 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.5 MB, 3886 files batched, 801 (3804) added so far); re-opening (prior size: 15447.7 KB)
+0004.525 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 1.4 s, rate: 18130.2 KB/s)
+0004.526 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.4417989253998, normalised_time=1.4120113484997, max_time=4.5253188610077, data points known=1, old_max_bytes=26214400, new_max_bytes=111391739)
+0004.838 (0) Creating zip file manifest (/home/tech4goodvesac/public_html/wp-content/updraft/backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.list-temp.tmp)
+0004.850 (0) Successfully created zip file manifest (size: 323001)
+0005.017 (0) Created plugins zip (0) - 23766.4 KB in 5 s (4760.2 KB/s) (sha1: 9c86ae5b187344303b545731376cff05836e5615, sha256: 916fff5778cf09109e6fda3bbd53d034bdf426de01fc277ace09c489396c9ab1)
+0005.018 (0) Beginning creation of dump of themes (split every: 400 MB)
+0005.067 (0) Total entities for the zip file: 363 directories, 1015 files (0 skipped as non-modified), 29.7 MB
+0005.071 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.074 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.078 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.082 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.086 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0005.091 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0005.095 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0005.101 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0005.106 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0005.112 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0005.112 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (26.3 MB, 1015 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0006.631 (0) Creating zip file manifest (/home/tech4goodvesac/public_html/wp-content/updraft/backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.list-temp.tmp)
+0006.635 (0) Successfully created zip file manifest (size: 82330)
+0006.725 (0) Created themes zip (0) - 12724.7 KB in 1.7 s (7457.3 KB/s) (sha1: adffaa0ae058b223f82084969374768bada5d90d, sha256: 883514f518f485ab7214e6f72929d6edfc2bed79e1dc65e125602c3514e6001c)
+0006.727 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.727 (0) Looking for candidates to backup in: /home/tech4goodvesac/public_html/wp-content/uploads
+0006.728 (0) finding files: 2020: adding to list (1)
+0006.728 (0) finding files: astra-sites: adding to list (2)
+0006.728 (0) finding files: 2022: adding to list (3)
+0006.729 (0) finding files: wpforms: adding to list (4)
+0006.729 (0) finding files: elementor: adding to list (5)
+0006.730 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.733 (0) Total entities for the zip file: 10 directories, 111 files (0 skipped as non-modified), 5.3 MB
+0006.735 (0) Zip: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.872 (0) Creating zip file manifest (/home/tech4goodvesac/public_html/wp-content/updraft/backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-uploads.zip.list-temp.tmp)
+0006.873 (0) Successfully created zip file manifest (size: 7023)
+0006.900 (0) Created uploads zip (0) - 3401 KB in 0.2 s (20061.1 KB/s) (sha1: 512f569cb65f5eb7e751b8ca1dd31b7c80dfe121, sha256: a10d777e40b0e9c139bea4dfa821ef668f01525508936eb3d4c9b66d222a6e32)
+0006.901 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.902 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.902 (0) Looking for candidates to backup in: /home/tech4goodvesac/public_html/wp-content
+0006.902 (0) finding files: index.php: adding to list (1)
+0006.903 (0) finding files: uploads: skipping: this is the uploads directory
+0006.903 (0) finding files: plugins: skipping: this is the plugins directory
+0006.904 (0) finding files: updraft: skipping: this is the updraft directory
+0006.904 (0) finding files: themes: skipping: this is the themes directory
+0006.904 (0) finding files: upgrade: skipping: excluded by options
+0006.906 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0006.907 (0) Creating zip file manifest (/home/tech4goodvesac/public_html/wp-content/updraft/backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-others.zip.list-temp.tmp)
+0006.908 (0) Successfully created zip file manifest (size: 43)
+0006.909 (0) Created others zip (0) - 0.1 KB in 0 s (33.9 KB/s) (sha1: 297755b9b05ab987aae518487a6569b85ce7be77, sha256: 78e2a05de565cf170ffe10ea8afd1a4cd4bd0c2c4e4b136e8e76962c9d30c4de)
+0006.912 (0) Saving backup status to database (elements: 8)
+0006.913 (0) Beginning creation of database dump (WordPress DB)
+0006.913 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0006.928 (0) Table wp_tgoptions: Total expected rows (via COUNT): 334
+0006.928 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.038 (0) Table wp_tgoptions: Rows added in this batch (next record: 576): 330 (uncompressed bytes in this segment=5957389) in 0.12 seconds
+0007.041 (0) Table wp_tgoptions: finishing file(s) (2, 628.3 KB)
+0007.043 (0) Table wp_tgusers: Total expected rows (via COUNT): 1
+0007.043 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.045 (0) Table wp_tgusers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1430) in 0.00 seconds
+0007.046 (0) Table wp_tgusers: finishing file(s) (2, 0.6 KB)
+0007.049 (0) Table wp_tgusermeta: Total expected rows (via COUNT): 23
+0007.049 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.050 (0) Table wp_tgusermeta: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=2714) in 0.00 seconds
+0007.053 (0) Table wp_tgusermeta: finishing file(s) (2, 1.2 KB)
+0007.055 (0) Table wp_tgactionscheduler_actions: Total expected rows (via COUNT): 6
+0007.056 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.057 (0) Table wp_tgactionscheduler_actions: Rows added in this batch (next record: 12): 6 (uncompressed bytes in this segment=4169) in 0.00 seconds
+0007.059 (0) Table wp_tgactionscheduler_actions: finishing file(s) (2, 1 KB)
+0007.060 (0) Table wp_tgactionscheduler_claims: Total expected rows (via COUNT): 0
+0007.061 (0) Table wp_tgactionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=636) in 0.00 seconds
+0007.063 (0) Table wp_tgactionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0007.064 (0) Table wp_tgactionscheduler_groups: Total expected rows (via COUNT): 2
+0007.065 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.066 (0) Table wp_tgactionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=720) in 0.00 seconds
+0007.068 (0) Table wp_tgactionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0007.069 (0) Table wp_tgactionscheduler_logs: Total expected rows (via COUNT): 12
+0007.070 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.071 (0) Table wp_tgactionscheduler_logs: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1809) in 0.00 seconds
+0007.073 (0) Table wp_tgactionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0007.075 (0) Table wp_tgcommentmeta: Total expected rows (via COUNT): 0
+0007.076 (0) Table wp_tgcommentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.00 seconds
+0007.079 (0) Table wp_tgcommentmeta: finishing file(s) (2, 0.4 KB)
+0007.081 (0) Table wp_tgcomments: Total expected rows (via COUNT): 1
+0007.082 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.084 (0) Table wp_tgcomments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2151) in 0.00 seconds
+0007.086 (0) Table wp_tgcomments: finishing file(s) (2, 0.8 KB)
+0007.089 (0) Table wp_tglinks: Total expected rows (via COUNT): 0
+0007.090 (0) Table wp_tglinks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1322) in 0.00 seconds
+0007.092 (0) Table wp_tglinks: finishing file(s) (2, 0.5 KB)
+0007.095 (0) Table wp_tgpostmeta: Total expected rows (via COUNT): 836
+0007.095 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.146 (0) Table wp_tgpostmeta: Rows added in this batch (next record: 1046): 836 (uncompressed bytes in this segment=2717318) in 0.05 seconds
+0007.149 (0) Table wp_tgpostmeta: finishing file(s) (2, 268.9 KB)
+0007.152 (0) Table wp_tgposts: Total expected rows (via COUNT): 119
+0007.152 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.163 (0) Table wp_tgposts: Rows added in this batch (next record: 1412): 119 (uncompressed bytes in this segment=249917) in 0.01 seconds
+0007.165 (0) Table wp_tgposts: finishing file(s) (2, 17.9 KB)
+0007.167 (0) Table wp_tgterm_relationships: Total expected rows (approximate): 12
+0007.168 (0) Table wp_tgterm_relationships: Rows added in this batch (next record: 100000): 12 (uncompressed bytes in this segment=880) in 0.00 seconds
+0007.170 (0) Table wp_tgterm_relationships: finishing file(s) (2, 0.4 KB)
+0007.172 (0) Table wp_tgterm_taxonomy: Total expected rows (via COUNT): 5
+0007.173 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.174 (0) Table wp_tgterm_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1064) in 0.00 seconds
+0007.176 (0) Table wp_tgterm_taxonomy: finishing file(s) (2, 0.5 KB)
+0007.178 (0) Table wp_tgtermmeta: Total expected rows (via COUNT): 3
+0007.179 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.179 (0) Table wp_tgtermmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=854) in 0.00 seconds
+0007.182 (0) Table wp_tgtermmeta: finishing file(s) (2, 0.5 KB)
+0007.183 (0) Table wp_tgterms: Total expected rows (via COUNT): 5
+0007.184 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.184 (0) Table wp_tgterms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=874) in 0.00 seconds
+0007.186 (0) Table wp_tgterms: finishing file(s) (2, 0.5 KB)
+0007.188 (0) Table wp_tge_events: Total expected rows (via COUNT): 0
+0007.189 (0) Table wp_tge_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=541) in 0.00 seconds
+0007.191 (0) Table wp_tge_events: finishing file(s) (2, 0.4 KB)
+0007.193 (0) Table wp_tgwpforms_tasks_meta: Total expected rows (via COUNT): 3
+0007.193 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.195 (0) Table wp_tgwpforms_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=913) in 0.00 seconds
+0007.197 (0) Table wp_tgwpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0007.198 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgoptions.table.tmpr577.gz (1/18/fopen): adding to final database dump
+0007.210 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgoptions.table.gz (2/18/fopen): adding to final database dump
+0007.210 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgusers.table.tmpr2.gz (3/18/fopen): adding to final database dump
+0007.211 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgusers.table.gz (4/18/fopen): adding to final database dump
+0007.211 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgusermeta.table.tmpr24.gz (5/18/fopen): adding to final database dump
+0007.212 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgusermeta.table.gz (6/18/fopen): adding to final database dump
+0007.212 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgactionscheduler_actions.table.tmpr13.gz (7/18/fopen): adding to final database dump
+0007.212 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgactionscheduler_actions.table.gz (8/18/fopen): adding to final database dump
+0007.213 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgactionscheduler_claims.table.tmpr0.gz (9/18/fopen): adding to final database dump
+0007.213 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgactionscheduler_claims.table.gz (10/18/fopen): adding to final database dump
+0007.214 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgactionscheduler_groups.table.tmpr3.gz (11/18/fopen): adding to final database dump
+0007.214 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgactionscheduler_groups.table.gz (12/18/fopen): adding to final database dump
+0007.214 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgactionscheduler_logs.table.tmpr13.gz (13/18/fopen): adding to final database dump
+0007.215 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgactionscheduler_logs.table.gz (14/18/fopen): adding to final database dump
+0007.215 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgcommentmeta.table.tmpr0.gz (15/18/fopen): adding to final database dump
+0007.215 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgcommentmeta.table.gz (16/18/fopen): adding to final database dump
+0007.216 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgcomments.table.tmpr2.gz (17/18/fopen): adding to final database dump
+0007.216 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgcomments.table.gz (18/18/fopen): adding to final database dump
+0007.217 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tglinks.table.tmpr0.gz (19/18/fopen): adding to final database dump
+0007.217 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tglinks.table.gz (20/18/fopen): adding to final database dump
+0007.217 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgpostmeta.table.tmpr1047.gz (21/18/fopen): adding to final database dump
+0007.223 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgpostmeta.table.gz (22/18/fopen): adding to final database dump
+0007.223 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgposts.table.tmpr1413.gz (23/18/fopen): adding to final database dump
+0007.224 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgposts.table.gz (24/18/fopen): adding to final database dump
+0007.224 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgterm_relationships.table.tmpr100001.gz (25/18/fopen): adding to final database dump
+0007.225 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgterm_relationships.table.gz (26/18/fopen): adding to final database dump
+0007.225 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgterm_taxonomy.table.tmpr6.gz (27/18/fopen): adding to final database dump
+0007.225 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgterm_taxonomy.table.gz (28/18/fopen): adding to final database dump
+0007.226 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgtermmeta.table.tmpr4.gz (29/18/fopen): adding to final database dump
+0007.226 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgtermmeta.table.gz (30/18/fopen): adding to final database dump
+0007.227 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgterms.table.tmpr6.gz (31/18/fopen): adding to final database dump
+0007.227 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgterms.table.gz (32/18/fopen): adding to final database dump
+0007.227 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tge_events.table.tmpr0.gz (33/18/fopen): adding to final database dump
+0007.228 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tge_events.table.gz (34/18/fopen): adding to final database dump
+0007.228 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgwpforms_tasks_meta.table.tmpr4.gz (35/18/fopen): adding to final database dump
+0007.229 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db-table-wp_tgwpforms_tasks_meta.table.gz (36/18/fopen): adding to final database dump
+0007.231 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db.gz: finished writing out complete database file (923.7 KB)
+0007.240 (0) Total database tables backed up: 18 (backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db.gz, size: 946000, sha1: a7ddc67baca205e9ca68aca8b9fe710e1ab0a85d, sha256: e1db127604fa5ab85923619394ecbf856d1fa8eb8558eccafbf7f8cce9577966)
+0007.243 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0007.243 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0007.243 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0007.244 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0007.244 (0) backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0007.244 (0) Saving backup history. Total backup size: 39.9 MB
+0007.245 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0007.247 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.247 (0) No remote despatch: user chose no remote backup service
+0007.248 (0) Recording as successfully uploaded: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip
+0007.249 (0) Deleting zip manifest (backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-plugins.zip.list.tmp)
+0007.249 (0) Recording as successfully uploaded: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip
+0007.250 (0) Deleting zip manifest (backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-themes.zip.list.tmp)
+0007.250 (0) Recording as successfully uploaded: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-uploads.zip
+0007.252 (0) Deleting zip manifest (backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-uploads.zip.list.tmp)
+0007.252 (0) Recording as successfully uploaded: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-others.zip
+0007.253 (0) Deleting zip manifest (backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-others.zip.list.tmp)
+0007.253 (0) Recording as successfully uploaded: backup_2022-04-02-1933_Tech4Good_67cfc5c3edb5-db.gz
+0007.255 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.256 (0) Number of backup sets in history: 1; groups (db): 1
+0007.256 (0) Examining (for databases) backup set with group_id=0, nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+0007.257 (0) This backup set is the backup set just made, so will not be deleted.
+0007.257 (0) Number of backup sets in history: 1; groups (files): 1
+0007.257 (0) Examining (for files) backup set with nonce=67cfc5c3edb5, datestamp=1648928009 (Apr 02 2022 19:33:29)
+0007.257 (0) This backup set is the backup set just made, so will not be deleted.
+0007.257 (0) This backup set is the backup set just made, so will not be deleted.
+0007.258 (0) This backup set is the backup set just made, so will not be deleted.
+0007.258 (0) This backup set is the backup set just made, so will not be deleted.
+0007.258 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.258 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0007.260 (0) Resume backup (67cfc5c3edb5, 0): finish run
+0007.260 (0) Decremented the semaphore (fd) by 1
+0007.261 (0) Semaphore (fd) unlocked
+0007.261 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0007.263 (0) No email will/can be sent - the user has not configured an email address.
+0007.263 (0) The backup apparently succeeded and is now complete
